@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.pixelos.veux.slimoverrides">
+    <application
+        android:allowBackup="false"
+        android:hasCode="false"
+        android:label="Veux package exclusions"
+        android:supportsRtl="true" />
+</manifest>
