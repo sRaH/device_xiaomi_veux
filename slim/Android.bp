@@ -1,0 +1,12 @@
+// Device-local product package used only to override optional inherited apps.
+android_app {
+    name: "VeuxSlimPackageOverrides",
+    manifest: "AndroidManifest.xml",
+    certificate: "platform",
+    product_specific: true,
+    overrides: [
+        "AndroidAutoStubPrebuilt",
+        "DeviceDiagnostics",
+        "WellbeingPrebuilt",
+    ],
+}

@@ -98,7 +98,8 @@ PRODUCT_PACKAGES += \
 # Device-specific settings
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \
-    KernelSUNext
+    KernelSUNext \
+    VeuxSlimPackageOverrides
 
 # Display
 PRODUCT_PACKAGES += \
