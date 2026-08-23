@@ -23,6 +23,7 @@ android_app {
         "ScribePrebuilt_v8.7.880674799",
         "SoundAmplifierPrebuilt_v4.91.886631805",
         "SwitchAccessPrebuilt_1.17.0.877181440",
+        "talkback",
         "WallpaperAIPrebuilt_10000372",
         "WallpaperEffect",
         "WallpaperEmojiPrebuilt-foldable-wallpaper",
