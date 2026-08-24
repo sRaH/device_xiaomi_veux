@@ -22,6 +22,7 @@ android_app_import {
     name: "KernelSUNext",
     apk: "prebuilt/KernelSU_Next.apk",
     presigned: true,
+    preprocessed: true,
     product_specific: true,
     dex_preopt: {
         enabled: false,
