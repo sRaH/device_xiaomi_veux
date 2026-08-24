@@ -191,6 +191,7 @@
     <ctl name="Ultrasound Suspend" value="0"/>
     <ctl name="Ultrasound Custom Setting 1" value="1"/>
     <!-- HFP start -->
+    <ctl name="SCO_SLIM7_DL_HL Switch" value="0" />
     <ctl name="HFP_SLIM7_UL_HL Switch" value="0" />
     <ctl name="RX_CDC_DMA_RX_1 Port Mixer SLIM_7_TX" value="0" />
     <ctl name="RX_CDC_DMA_RX_0 Port Mixer SLIM_7_TX" value="0" />
@@ -2567,6 +2568,7 @@
     </path>
 
     <path name="hfp-sco">
+        <ctl name="SCO_SLIM7_DL_HL Switch" value="1" />
         <ctl name="RX_CDC_DMA_RX_0 Port Mixer SLIM_7_TX" value="1" />
         <ctl name="RX_CDC_DMA_RX_1 Port Mixer SLIM_7_TX" value="1" />
         <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia6" value="1" />
