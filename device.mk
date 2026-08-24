@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    sound_trigger.primary.holi:32
+    sound_trigger.primary.holi:32 \
+    tinymix
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8350/audio
 AUDIO_SKU_DIR := sku_holi
