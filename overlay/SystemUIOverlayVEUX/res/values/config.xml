@@ -26,4 +26,17 @@
 
     <!--  Flag to turn on the rendering of the above path or not  -->
     <bool name="config_enableDisplayCutoutProtection">true</bool>
+
+    <!-- Receiver-only WFD: remove the Cast sender tile from defaults and the tile editor. -->
+    <bool name="config_show_cast_sender">false</bool>
+    <string name="quick_settings_tiles_default" translatable="false">internet,bt,dnd,flashlight,airplane,rotation,wallet,alarm,controls,screenrecord,battery</string>
+    <string name="quick_settings_tiles_default_split" translatable="false">wifi,bt,cell,dnd,wallet,airplane,rotation,flashlight,battery,alarm,controls,screenrecord</string>
+    <string-array name="quick_settings_large_tiles_default_split" translatable="false">
+        <item>wifi</item>
+        <item>bt</item>
+        <item>cell</item>
+        <item>dnd</item>
+        <item>wallet</item>
+    </string-array>
+    <string name="quick_settings_tiles_stock" translatable="false">internet,wifi,bt,flashlight,dnd,modes_dnd,alarm,airplane,nfc,controls,wallet,rotation,battery,screenrecord,mictoggle,cameratoggle,location,hotspot,inversion,saver,dark,work,night,reverse,reduce_brightness,qr_code_scanner,onehanded,color_correction,font_scaling,record_issue,hearing_devices,notes,desktopeffects,cell,caffeine,heads_up,sync,ambient_display,usb_tether,aod,powershare,reading_mode,vpn,auto_brightness,data_switch</string>
 </resources>
