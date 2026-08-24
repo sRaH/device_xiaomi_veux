@@ -99,7 +99,10 @@ PRODUCT_PACKAGES += \
 # Device-specific settings
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \
-    VeuxSlimPackageOverrides
+    VeuxSlimPackageOverrides \
+    WfdReceiver \
+    default-permissions-wfdreceiver \
+    privapp-permissions-wfdreceiver
 
 # Display
 PRODUCT_PACKAGES += \

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cast receiver</string>
+    <string name="tile_label">Receive cast</string>
+    <string name="tile_listening">Listening</string>
+    <string name="ready_title">Ready to receive</string>
+    <string name="ready_summary">On the other device, choose this phone from its wireless display or Miracast menu.</string>
+    <string name="starting_summary">Preparing the Miracast receiver…</string>
+    <string name="connecting_summary">Connecting to %1$s…</string>
+    <string name="connected_summary">Receiving from %1$s</string>
+    <string name="wifi_direct_off">Turn on Wi‑Fi to use the cast receiver.</string>
+    <string name="permission_required">Nearby devices permission is required to receive a cast.</string>
+    <string name="service_unavailable">The Qualcomm Wi‑Fi Display service is unavailable.</string>
+    <string name="session_failed">Could not start the Miracast session (error %1$d).</string>
+    <string name="peer_address_unavailable">Connected, but the source IP address is not available yet.</string>
+    <string name="stop">Stop</string>
+</resources>
