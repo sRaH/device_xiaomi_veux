@@ -2567,12 +2567,14 @@
     </path>
 
     <path name="hfp-sco">
+        <ctl name="HFP_INT_UL_HL Switch" value="1" />
     </path>
 
     <path name="hfp-sco headphones">
     </path>
 
    <path name="hfp-sco-wb">
+        <ctl name="BT SampleRate" value="KHZ_16" />
         <path name="hfp-sco" />
    </path>
 
