@@ -32,4 +32,7 @@
         <item>256</item> <!-- "Saturated" -->
         <item>258</item> <!-- "Vivid" -->
     </integer-array>
+
+    <!-- This device exposes a wireless display receiver instead of the sender UI. -->
+    <bool name="config_show_cast_sender">false</bool>
 </resources>
